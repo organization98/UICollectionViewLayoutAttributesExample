@@ -9,15 +9,12 @@
 /* Begin PBXBuildFile section */
 		2C7142E31B57F0910040059F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7142E21B57F0910040059F /* main.m */; };
 		2C7142E61B57F0910040059F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7142E51B57F0910040059F /* AppDelegate.m */; };
-		2C7142E91B57F0910040059F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7142E81B57F0910040059F /* ViewController.m */; };
 		2C7142EC1B57F0910040059F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C7142EA1B57F0910040059F /* Main.storyboard */; };
 		2C7142EE1B57F0910040059F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C7142ED1B57F0910040059F /* Images.xcassets */; };
 		2C7142F11B57F0910040059F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C7142EF1B57F0910040059F /* LaunchScreen.xib */; };
 		2C7142FD1B57F0910040059F /* UICollectionViewLayoutAttributesExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7142FC1B57F0910040059F /* UICollectionViewLayoutAttributesExampleTests.m */; };
-		2C7143091B57F1460040059F /* SchemeType40.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7143071B57F1460040059F /* SchemeType40.m */; };
-		2C71430A1B57F1460040059F /* SchemeType40.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C7143081B57F1460040059F /* SchemeType40.xib */; };
-		2C71430D1B57F21A0040059F /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C71430C1B57F21A0040059F /* CustomButton.m */; };
-		2C7143131B57F6340040059F /* CustomFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7143121B57F6340040059F /* CustomFlowLayout.m */; };
+		2C8CBD751B946E1E003666A1 /* TestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8CBD741B946E1E003666A1 /* TestController.m */; };
+		2CEDA23B1B959D7B001266CF /* SeatCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CEDA23A1B959D7B001266CF /* SeatCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,21 +33,16 @@
 		2C7142E21B57F0910040059F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2C7142E41B57F0910040059F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2C7142E51B57F0910040059F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2C7142E71B57F0910040059F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2C7142E81B57F0910040059F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2C7142EB1B57F0910040059F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C7142ED1B57F0910040059F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2C7142F01B57F0910040059F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		2C7142F61B57F0910040059F /* UICollectionViewLayoutAttributesExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UICollectionViewLayoutAttributesExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C7142FB1B57F0910040059F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C7142FC1B57F0910040059F /* UICollectionViewLayoutAttributesExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewLayoutAttributesExampleTests.m; sourceTree = "<group>"; };
-		2C7143061B57F1460040059F /* SchemeType40.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchemeType40.h; sourceTree = "<group>"; };
-		2C7143071B57F1460040059F /* SchemeType40.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchemeType40.m; sourceTree = "<group>"; };
-		2C7143081B57F1460040059F /* SchemeType40.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SchemeType40.xib; sourceTree = "<group>"; };
-		2C71430B1B57F21A0040059F /* CustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
-		2C71430C1B57F21A0040059F /* CustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomButton.m; sourceTree = "<group>"; };
-		2C7143111B57F6340040059F /* CustomFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomFlowLayout.h; sourceTree = "<group>"; };
-		2C7143121B57F6340040059F /* CustomFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomFlowLayout.m; sourceTree = "<group>"; };
+		2C8CBD731B946E1E003666A1 /* TestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestController.h; sourceTree = "<group>"; };
+		2C8CBD741B946E1E003666A1 /* TestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestController.m; sourceTree = "<group>"; };
+		2CEDA2391B959D7B001266CF /* SeatCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeatCollectionViewCell.h; sourceTree = "<group>"; };
+		2CEDA23A1B959D7B001266CF /* SeatCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeatCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,14 +85,14 @@
 			isa = PBXGroup;
 			children = (
 				2C7143101B57F2370040059F /* AppDelegate */,
-				2C71430E1B57F2200040059F /* SchemeClasses */,
-				2C71430F1B57F22C0040059F /* ViewController */,
-				2C7142EA1B57F0910040059F /* Main.storyboard */,
+				2C8CBD731B946E1E003666A1 /* TestController.h */,
+				2C8CBD741B946E1E003666A1 /* TestController.m */,
+				2CEDA2391B959D7B001266CF /* SeatCollectionViewCell.h */,
+				2CEDA23A1B959D7B001266CF /* SeatCollectionViewCell.m */,
 				2C7142EF1B57F0910040059F /* LaunchScreen.xib */,
+				2C7142EA1B57F0910040059F /* Main.storyboard */,
 				2C7142ED1B57F0910040059F /* Images.xcassets */,
 				2C7142E01B57F0910040059F /* Supporting Files */,
-				2C7143111B57F6340040059F /* CustomFlowLayout.h */,
-				2C7143121B57F6340040059F /* CustomFlowLayout.m */,
 			);
 			path = UICollectionViewLayoutAttributesExample;
 			sourceTree = "<group>";
@@ -129,27 +121,6 @@
 				2C7142FB1B57F0910040059F /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		2C71430E1B57F2200040059F /* SchemeClasses */ = {
-			isa = PBXGroup;
-			children = (
-				2C7143061B57F1460040059F /* SchemeType40.h */,
-				2C7143071B57F1460040059F /* SchemeType40.m */,
-				2C7143081B57F1460040059F /* SchemeType40.xib */,
-				2C71430B1B57F21A0040059F /* CustomButton.h */,
-				2C71430C1B57F21A0040059F /* CustomButton.m */,
-			);
-			name = SchemeClasses;
-			sourceTree = "<group>";
-		};
-		2C71430F1B57F22C0040059F /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				2C7142E71B57F0910040059F /* ViewController.h */,
-				2C7142E81B57F0910040059F /* ViewController.m */,
-			);
-			name = ViewController;
 			sourceTree = "<group>";
 		};
 		2C7143101B57F2370040059F /* AppDelegate */ = {
@@ -241,7 +212,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C71430A1B57F1460040059F /* SchemeType40.xib in Resources */,
 				2C7142EC1B57F0910040059F /* Main.storyboard in Resources */,
 				2C7142F11B57F0910040059F /* LaunchScreen.xib in Resources */,
 				2C7142EE1B57F0910040059F /* Images.xcassets in Resources */,
@@ -262,12 +232,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C7143131B57F6340040059F /* CustomFlowLayout.m in Sources */,
-				2C7143091B57F1460040059F /* SchemeType40.m in Sources */,
-				2C71430D1B57F21A0040059F /* CustomButton.m in Sources */,
-				2C7142E91B57F0910040059F /* ViewController.m in Sources */,
 				2C7142E61B57F0910040059F /* AppDelegate.m in Sources */,
+				2CEDA23B1B959D7B001266CF /* SeatCollectionViewCell.m in Sources */,
 				2C7142E31B57F0910040059F /* main.m in Sources */,
+				2C8CBD751B946E1E003666A1 /* TestController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,6 +430,7 @@
 				2C7143021B57F0910040059F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C7143031B57F0910040059F /* Build configuration list for PBXNativeTarget "UICollectionViewLayoutAttributesExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +439,7 @@
 				2C7143051B57F0910040059F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
